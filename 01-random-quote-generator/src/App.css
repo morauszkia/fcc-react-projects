@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato;
+  background-color: #16a085;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-box {
+  width: 800px;
+  max-width: 90vw;
+  padding: 50px 80px;
+  background-color: #fff;
+  color: #16a085;
+  position: relative;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+#text {
+  font-size: 24px;
+  /* margin-bottom: 16px; */
+  line-height: 1.5;
+}
+
+#author {
+  text-align: right;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+  background-color: #16a085;
+  padding: 12px 36px;
+  border-radius: 5px;
+  display: block;
+  margin: 50px auto 0;
+}
+
+#tweet-quote {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
